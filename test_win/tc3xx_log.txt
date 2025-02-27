@@ -1,0 +1,150 @@
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 1367 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 1213 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 1370 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 1250 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 10263 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 10199 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 291 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 163 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 164 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 163 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory ... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 837 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory ... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 833 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .... (Pass)
+Overall time: 679 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 101 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 103 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 99 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 521 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V2.0 (TC375) LK57COT7
+::Loading ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 523 ms
+AURIXFlasher Exit Status: Pass

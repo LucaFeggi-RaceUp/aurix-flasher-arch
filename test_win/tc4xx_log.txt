@@ -1,0 +1,100 @@
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .... (Pass)
+Overall time: 2757 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 1873 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 1730 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 1866 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 7499 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 7734 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 331 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+Overall time: 190 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 193 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .. (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 193 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory ... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 573 ms
+AURIXFlasher Exit Status: Pass
+Volumit AURIX Flasher Software Tool 0.0.0.1, built on Feb 22 2025 10:23:45
+Connected to device... AURIX LITE KIT V1.0 (TC4D7) LK9O796E
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory ... (Pass)
+::Verifying Flash memory ..(Pass)
+::Flash memory matches expected value ..(Pass)
+Overall time: 609 ms
+AURIXFlasher Exit Status: Pass

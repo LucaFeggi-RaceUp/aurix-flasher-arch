@@ -1,0 +1,39 @@
+OBJS= \
+aurix_flasher.o \
+tas_client_chl.o \
+tas_client_trc.o \
+tas_pkt_handler_rw.o \
+tas_pkt_mailbox_socket.o \
+tas_utils_jtag.o \
+tas_client_rw_base.o \
+tas_pkt_handler_base.o \
+tas_pkt_handler_server_con.o \
+tas_utils.o \
+tas_utils_os.o \
+tas_client_server_con.o \
+tas_pkt_handler_chl.o \
+tas_pkt_handler_trc.o \
+tas_utils_ifx.o \
+tas_conn_socket.o  \
+tas_socket.o  \
+tas_tcp_server_socket.o  \
+tas_tcp_socket.o \
+flash_tool_ihex.o \
+elf_parser.o \
+mman.o
+
+EXECUTEABLE=aurix_flasher.exe
+#CFLAGS=-I./tas -I./socket 
+
+$(EXECUTEABLE): $(OBJS)
+	g++ $(OBJS) -lws2_32 -o $(EXECUTEABLE) 
+	
+%.o: ../src/%.cpp
+	g++ -c -O2 $(CFLAGS) $< -o $@ 
+	
+%.o: ../src/%.c
+	g++ -c -O2 $(CFLAGS) $< -o $@ 
+
+clean:
+	-rm -f $(EXECUTEABLE)
+	-rm -f *.o	
