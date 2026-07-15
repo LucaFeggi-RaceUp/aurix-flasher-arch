@@ -46,17 +46,16 @@ Do not assume the newest Infineon TAS/DAS package is available for Linux. Some n
 
 ## Typical TC375 Standard Flash
 
-```bash
-export AURIX_FLASHER="$PWD/aurix_flasher"
-export ELF="/home/luca/raceup/ControlUnitLogicOperator/instances/aurix_375_lte_llvm/.build_release/litekit_tc375_example.elf"
+From the `ControlUnitLogicOperator` repository root, prefer the helper script:
 
-"$AURIX_FLASHER" -id list
+```bash
+tools/flash_aurix_standard.sh
+```
+
+For a no-flash target check:
+
+```bash
+tools/flash_aurix_standard.sh --check
 ```
 
 Continue only if the target list identifies the MCU, for example `TC37x`. Do not flash if it says `no device`.
-
-```bash
-"$AURIX_FLASHER" \
-  -id 0 \
-  -elf "$ELF" \
-  -erase on \
