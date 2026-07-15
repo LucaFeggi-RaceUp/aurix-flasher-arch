@@ -36,7 +36,7 @@ CTasPktHandlerChl::CTasPktHandlerChl(tas_error_info_st* ei)
 
 CTasPktHandlerChl::~CTasPktHandlerChl()
 {
-	delete mRqBuf;
+	delete[] mRqBuf;
 }
 
 const uint32_t* CTasPktHandlerChl::get_pkt_rq_subscribe(uint8_t chl, tas_cht_et cht, tas_chso_et chso, uint8_t prio)

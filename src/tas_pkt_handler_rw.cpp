@@ -79,11 +79,11 @@ void CTasPktHandlerRw::mInit(uint32_t max_rq_size, uint32_t max_rsp_size, uint32
 
 CTasPktHandlerRw::~CTasPktHandlerRw()
 {
-    delete mRqBuf;
-    delete mRwTrans;
-    delete mRwTransRsp;
-    delete mPl0Trans;
-    delete mPl0TransRsp;
+    delete[] mRqBuf;
+    delete[] mRwTrans;
+    delete[] mRwTransRsp;
+    delete[] mPl0Trans;
+    delete[] mPl0TransRsp;
 }
 
 void CTasPktHandlerRw::rw_start()

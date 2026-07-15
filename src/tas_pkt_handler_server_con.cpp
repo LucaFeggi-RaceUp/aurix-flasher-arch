@@ -44,7 +44,7 @@ CTasPktHandlerServerCon::CTasPktHandlerServerCon(tas_error_info_st* ei)
 
 CTasPktHandlerServerCon::~CTasPktHandlerServerCon()
 {
-	delete mRqBuf;
+	delete[] mRqBuf;
 }
 
 const uint32_t* CTasPktHandlerServerCon::get_pkt_rq_server_connect(const char* client_name, const char* user_name, uint32_t client_pid)

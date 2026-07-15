@@ -83,8 +83,8 @@ tas_return_et tasutil_jtag_scan(CTasClientRw* tcrw, const tasutil_jtag_scan_st* 
 		ret = tcrw->execute_trans(rwTrans, t);
 	}
 
-	delete rwTrans;
-	delete zeroDataBlock;
+	delete[] rwTrans;
+	delete[] zeroDataBlock;
 
 	return ret;
 }

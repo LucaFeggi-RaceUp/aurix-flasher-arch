@@ -26,7 +26,7 @@ CTasClientRwBase::CTasClientRwBase(uint32_t max_rsp_size)
 
 CTasClientRwBase::~CTasClientRwBase()
 {
-	delete mRspBuf;
+	delete[] mRspBuf;
 	delete mTphRw;
 }
 CTasClientRwBase::CTasClientRwBase(CTasPktMailboxIf* mb_if, uint32_t max_rq_size, uint32_t max_rsp_size, uint32_t max_num_rw)

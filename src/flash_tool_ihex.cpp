@@ -82,6 +82,11 @@ hexout (FILE *fhex, int byte, int memory_location, int end);
 #define MEMTYPE_DFLASH 3
 #define MEMTYPE_UCB 4
 
+// TAS splits one large host transfer into 1 KiB PL0 transactions. The TC375
+// target used here reports 24 PL0 transaction records, so keep each host
+// transfer comfortably below that limit.
+static const unsigned int TAS_SAFE_RW_CHUNK = 16 * 1024;
+
 int
 init_memory_buffers (int mode);
 int
@@ -235,7 +240,7 @@ do_status (CTasClientRw *client, int *status)
 }
 
 /* writes a continues memory block to target */
-/* the transfer is done in max. 32kybte blocks */
+/* the transfer is done in chunks small enough for the TAS PL0 transaction limit */
 int
 do_write_mem_blk (CTasClientRw *client, unsigned int addr, unsigned int len, unsigned char *pdata)
 {
@@ -245,7 +250,7 @@ do_write_mem_blk (CTasClientRw *client, unsigned int addr, unsigned int len, uns
 	i = 0;
 	while (len != 0)
 	{
-		if (len <= 32768)
+		if (len <= TAS_SAFE_RW_CHUNK)
 		{
 			tas_rw_trans_st trans =
 			{ addr_tr, len, 0, 0, TAS_RW_TT_WR, &pdata[i] };
@@ -256,11 +261,11 @@ do_write_mem_blk (CTasClientRw *client, unsigned int addr, unsigned int len, uns
 		{
 			//long
 			tas_rw_trans_st trans =
-			{ addr_tr, 32768, 0, 0, TAS_RW_TT_WR, &pdata[i] };
+			{ addr_tr, TAS_SAFE_RW_CHUNK, 0, 0, TAS_RW_TT_WR, &pdata[i] };
 			tasutil_assert (client->execute_trans (&trans, 1));
-			i += 32768;
-			addr_tr += 32768;
-			len -= 32768;
+			i += TAS_SAFE_RW_CHUNK;
+			addr_tr += TAS_SAFE_RW_CHUNK;
+			len -= TAS_SAFE_RW_CHUNK;
 		}
 
 	}
@@ -276,7 +281,7 @@ do_read_mem_blk (CTasClientRw *client, unsigned int addr, unsigned int len, unsi
 	i = 0;
 	while (len != 0)
 	{
-		if (len <= 32768)
+		if (len <= TAS_SAFE_RW_CHUNK)
 		{
 			tas_rw_trans_st trans =
 			{ addr_tr, len, 0, 0, TAS_RW_TT_RD, &pdata[i] };
@@ -287,11 +292,11 @@ do_read_mem_blk (CTasClientRw *client, unsigned int addr, unsigned int len, unsi
 		{
 			//long
 			tas_rw_trans_st trans =
-			{ addr_tr, 32768, 0, 0, TAS_RW_TT_RD, &pdata[i] };
+			{ addr_tr, TAS_SAFE_RW_CHUNK, 0, 0, TAS_RW_TT_RD, &pdata[i] };
 			tasutil_assert (client->execute_trans (&trans, 1));
-			i += 32768;
-			addr_tr += 32768;
-			len -= 32768;
+			i += TAS_SAFE_RW_CHUNK;
+			addr_tr += TAS_SAFE_RW_CHUNK;
+			len -= TAS_SAFE_RW_CHUNK;
 		}
 
 	}
@@ -729,8 +734,8 @@ target_download_flash_double (CTasClientRw *client, char *pname_hex, char *pname
 	unsigned int target_param_addr1;
 	unsigned int target_status1;
 	unsigned int params[8];
-	int timeout0;
-	int timeout1;
+	int timeout0 = 0;
+	int timeout1 = 0;
 	int addr_cont;
 	int sect_cont;
 	int status;

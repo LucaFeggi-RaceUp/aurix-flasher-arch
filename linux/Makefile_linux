@@ -19,20 +19,20 @@ tas_socket.o  \
 tas_tcp_server_socket.o  \
 tas_tcp_socket.o \
 flash_tool_ihex.o \
-elf_parser.o 
+elf_parser.o
 
 EXECUTEABLE=aurix_flasher
 CFLAGS=-Wno-format
-	
+
 $(EXECUTEABLE): $(OBJS)
-	g++ $(OBJS) -o $(EXECUTEABLE) 
-	
+	g++ $(OBJS) $(CFLAGS) -o $(EXECUTEABLE)
+
 %.o: ../src/%.cpp
-	g++ -c -O2 $(CFLAGS) $< -o $@ 
-	
+	g++ -c -O2 $(CFLAGS) $< -o $@
+
 %.o: ../src/%.c
-	g++ -c -O2 $(CFLAGS) $< -o $@ 
+	g++ -c -O2 $(CFLAGS) $< -o $@
 
 clean:
 	-rm -f $(EXECUTEABLE)
-	-rm -f *.o	
+	-rm -f *.o

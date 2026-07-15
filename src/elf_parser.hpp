@@ -25,6 +25,7 @@
 
 #include <iostream>
 #include <string>
+#include <cstdint>
 #include <cstdlib>
 #include <cstdio>
 #include <fcntl.h>    /* O_RDONLY */
